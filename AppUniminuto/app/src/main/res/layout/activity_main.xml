@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#301E1E"
+    android:backgroundTint="#2A3049"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnConsultaCita"
+        android:layout_width="0dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#C82B2B"
+        android:text="CONSULTAR CITA."
+        android:textSize="30sp"
+        android:typeface="monospace"
+        app:icon="@android:drawable/ic_menu_help"
+        app:iconSize="65dp"
+        app:iconTint="#0C0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
+
+    <Button
+        android:id="@+id/btnCancelarCita"
+        android:layout_width="0dp"
+        android:layout_height="99dp"
+        android:backgroundTint="#C82B2B"
+        android:backgroundTintMode="src_in"
+        android:text="CANCELAR CITA."
+        android:textSize="30sp"
+        android:typeface="monospace"
+        app:icon="@android:drawable/ic_delete"
+        app:iconSize="65dp"
+        app:iconTint="#0C0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:layout_width="266dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFFAFA"
+        android:tag="@string/bottom_sheet_behavior"
+        android:text="MENU ColSALUD."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F1EBEB"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAgendarCita"
+        android:layout_width="0dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#C82B2B"
+        android:text="AGENDAR CITA."
+        android:textSize="30sp"
+        android:theme="@style/Theme.AppUniminuto"
+        android:typeface="monospace"
+        app:icon="@android:drawable/ic_menu_recent_history"
+        app:iconSize="65dp"
+        app:iconTint="#0C0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <Button
+        android:id="@+id/btnModificarCita"
+        android:layout_width="0dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#C82B2B"
+        android:text="MODIFICAR CITA."
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:iconSize="50dp"
+        app:iconTint="#0C0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="99dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

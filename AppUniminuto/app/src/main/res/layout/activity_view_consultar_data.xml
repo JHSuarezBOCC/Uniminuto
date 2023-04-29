@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewConsultarData">
+
+    <Button
+        android:id="@+id/btnBackMain"
+        style="@style/Theme.AppUniminuto"
+        android:layout_width="404dp"
+        android:layout_height="62dp"
+        android:background="#AE1010"
+        android:text="back"
+        android:textColorHighlight="#D51B1B"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp"
+        app:icon="?attr/homeAsUpIndicator"
+        app:iconGravity="top"
+        app:iconSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/btnConsult"
+        style="@style/Theme.AppUniminuto"
+        android:layout_width="404dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="4dp"
+        android:background="#AE1010"
+        android:text="Consultar Citas Medicas"
+        android:textColorHighlight="#D51B1B"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/ListRecords"
+        android:layout_width="405dp"
+        android:layout_height="496dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459"
+        tools:layout_editor_absoluteX="3dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
