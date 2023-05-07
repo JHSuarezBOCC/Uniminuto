@@ -2,19 +2,9 @@ package com.example.appuniminuto;
 
 public class model {
     private String name;
-    private int Document;
-    private String TypeCita;
+    private int document;
+    private String nameDoc;
     private String date;
-
-    public String[] getData() {
-        return data;
-    }
-
-    public void setData(String[] data) {
-        this.data = data;
-    }
-
-    private String [] data = {};
     public String getName() {
         return name;
     }
@@ -24,19 +14,19 @@ public class model {
     }
 
     public int getDocument() {
-        return Document;
+        return document;
     }
 
     public void setDocument(int document) {
-        Document = document;
+        this.document = document;
     }
 
-    public String getTypeCita() {
-        return TypeCita;
+    public String getNameDoc() {
+        return nameDoc;
     }
 
-    public void setTypeCita(String typeCita) {
-        TypeCita = typeCita;
+    public void setNameDoctor(String nameDoctor) {
+        this.nameDoc = nameDoctor;
     }
 
     public String getDate() {
