@@ -72,7 +72,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tipo de Cita:"
+        android:text="Nombre Medico:"
         android:textColor="#F6F2F2"
         android:textSize="18sp"
         android:typeface="serif"
@@ -128,7 +128,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txtTypeCita"
+        android:id="@+id/txtNameDoctor"
         android:layout_width="188dp"
         android:layout_height="41dp"
         android:backgroundTint="#F44336"
